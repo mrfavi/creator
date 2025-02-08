@@ -11,7 +11,7 @@ import NavbarComponent from "./components/navbar";
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col items-center pt-8 px-16 pb-12 bg-[#6981fd]">
+      <main className="flex min-h-screen flex-col items-center pt-8 lg:px-16 px-5 pb-12 bg-[#6981fd]">
         <NavbarComponent />
         <IntroSectionComponent />
         <StatsSection />
